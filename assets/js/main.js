@@ -22,10 +22,16 @@ btnGenera.addEventListener('click', function() {
 
    if (fasciaEta == "minorenne") {
      // console.log("applica il 20% di sconto");
-   }else if (fasciaEta == "maggiorenne") {
-   }else (fasciaEta == "over65") {
-     // console.log("applica il 40% di sconto");
+     var sconto = (costoBiglietto *20) / 100;
+     costoBiglietto = costoBiglietto - sconto;
+     // console.log(costoBiglietto);
 
+   }else if (fasciaEta == "over65") {
+     // console.log("applica il 40% di sconto");
+     var sconto = (costoBiglietto *40) / 100;
+     costoBiglietto = costoBiglietto - sconto;
+     // console.log(costoBiglietto);
+   }
 
 });
 
