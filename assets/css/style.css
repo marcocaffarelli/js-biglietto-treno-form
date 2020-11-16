@@ -2,11 +2,18 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
 }
 
 /***************Utility classes***************/
 .d-flex {
   display: flex;
+}
+.mx_5{
+  margin: 0 5px;
+}
+.strong{
+  font-weight: bolder;
 }
 
 body{
@@ -20,18 +27,25 @@ body{
   width: 50%;
   background-color: rgb(185, 20, 80);
   margin: auto;
+}
+#form_biglietto, h2{
   text-align: center;
+}
 
+#form_biglietto h2{
+  margin-bottom: 10px;
 }
 
 h2{
   color: white;
+  margin-top: 10px;
 }
 
-.bianco{
+.sfondo_bianco{
   background-color: white;
   width: 80%;
   margin: auto;
+  padding: 5px;
 }
 
 .col{
@@ -39,7 +53,11 @@ h2{
   flex-direction: column;
 }
 
-
 #biglietto{
   opacity: 0;
+}
+
+.dettaglio_passeggeri{
+  border: 1px solid grey;
+  border-right: 1px solid white;
 }

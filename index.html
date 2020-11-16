@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Biglietto Treno Form</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
   </head>
   <body>
     <div class="container d-flex">
@@ -13,7 +14,7 @@
       <section id="form_biglietto">
         <h2>CALCOLA IL PREZZO DEL TUO BIGLIETTO</h2>
         <!-- sfondo bianco -->
-        <div class="bianco">
+        <div class="sfondo_bianco">
           <!-- riga superiore -->
           <div class="row d-flex">
             <div class="col">
@@ -49,41 +50,44 @@
       <!-- il tuo biglietto -->
       <section id="biglietto">
         <h2>IL TUO BIGLIETTO</h2>
-        <div class="bianco">
+        <div class="sfondo_bianco">
           <div class="row">
             <h4>DETTAGLIO PASSEGGERI</h4>
           </div>
-          <div class="row d-flex">
-            <div class="col">
-              <div>
-                NOME PASSEGGERO
+          <div class="dettaglio_passeggeri">
+            <div class="row d-flex">
+              <div class="col mx_5">
+                <div class="strong">
+                  NOME PASSEGGERO
+                </div>
+                <div id="nome_passeggero" class="strong"></div>
               </div>
-              <div id="nome_passeggero"></div>
-            </div>
-            <div class="col">
-              <div>
-                Offerta
+              <div class="col mx_5">
+                <div class="strong">
+                  Offerta
+                </div>
+                <div id="offerta_sconto"></div>
               </div>
-              <div id="offerta_sconto"></div>
-            </div>
-            <div class="col">
-              <div>
-                Carrozza
+              <div class="col mx_5">
+                <div class="strong">
+                  Carrozza
+                </div>
+                <div id="carrozza"></div>
               </div>
-              <div id="carrozza"></div>
-            </div>
-            <div class="col">
-              <div>
-                Codice CP
+              <div class="col mx_5">
+                <div class="strong">
+                  Codice CP
+                </div>
+                <div id="codice_cp"></div>
               </div>
-              <div id="codice_cp"></div>
-            </div>
-            <div class="col">
-              <div>
-                Costo Biglietto
+              <div class="col mx_5">
+                <div class="strong">
+                  Costo Biglietto
+                </div>
+                <div id="costo_biglietto"></div>
               </div>
-              <div id="costo_biglietto"></div>
             </div>
+
           </div>
         </div>
 
