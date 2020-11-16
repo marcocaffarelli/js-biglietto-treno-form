@@ -15,6 +15,9 @@
 .strong{
   font-weight: bolder;
 }
+.pb_40{
+  padding-bottom: 40px;
+}
 
 body{
   background-color: black;
@@ -28,24 +31,31 @@ body{
   background-color: rgb(185, 20, 80);
   margin: auto;
 }
-#form_biglietto, h2{
+.top{
+  justify-content: space-around;
+}
+#form_biglietto, h3{
   text-align: center;
 }
 
-#form_biglietto h2{
+#form_biglietto h3{
   margin-bottom: 10px;
 }
+#form_biglietto .sfondo_bianco{
+  border-radius: 10px;
+}
 
-h2{
+h3{
   color: white;
   margin-top: 10px;
+  font-weight: normal;
 }
 
 .sfondo_bianco{
   background-color: white;
   width: 80%;
   margin: auto;
-  padding: 5px;
+  padding: 10px;
 }
 
 .col{
@@ -53,8 +63,25 @@ h2{
   flex-direction: column;
 }
 
+button, label{
+  color: rgb(185, 20, 80);
+  margin: 10px 0;
+}
+label{
+  font-size: 12px;
+}
+.grey{
+  background-color: grey;
+  margin-left: 0;
+  padding-left: 10px;
+}
+
 #biglietto{
   opacity: 0;
+  font-size: 14px;
+}
+#biglietto .sfondo_bianco{
+  margin-bottom: 30px;
 }
 
 .dettaglio_passeggeri{
