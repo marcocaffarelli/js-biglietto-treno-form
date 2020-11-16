@@ -19,19 +19,41 @@ btnGenera.addEventListener('click', function() {
 
    var costoAlKm = 0.21;
    var costoBiglietto = costoAlKm * km;
+   var offerta = "standard"
 
    if (fasciaEta == "minorenne") {
      // console.log("applica il 20% di sconto");
      var sconto = (costoBiglietto *20) / 100;
      costoBiglietto = costoBiglietto - sconto;
+     var offerta = "sconto minorenne"
      // console.log(costoBiglietto);
 
    }else if (fasciaEta == "over65") {
      // console.log("applica il 40% di sconto");
      var sconto = (costoBiglietto *40) / 100;
      costoBiglietto = costoBiglietto - sconto;
+     var offerta = "sconto over 65"
      // console.log(costoBiglietto);
    }
+
+   var elementoNome = document.getElementById("nome_passeggero");
+   var elementoSconto = document.getElementById("offerta_sconto");
+   var elementoCarrozza = document.getElementById("carrozza");
+   var elementoCodice = document.getElementById("codice_cp");
+   var elementoBiglietto = document.getElementById("costo_biglietto");
+
+   // numero carrozza casuale
+   var numeroCarrozza = Math.floor(Math.random() *9) + 1;
+   // numero codice casuale
+   var codiceCp = Math.floor(Math.random() *(100000 - 90000)) + 90000;
+
+   // compilare biglietto
+   elementoNome.innerHTML = nomeCognome;
+   console.log(nomeCognome);
+   elementoSconto.innerHTML = offerta;
+   elementoCarrozza.innerHTML = numeroCarrozza
+   elementoCodice.innerHTML =codiceCp;
+   elementoBiglietto.innerHTML = (costoBiglietto).toFixed(2) + "€";
 
 });
 
