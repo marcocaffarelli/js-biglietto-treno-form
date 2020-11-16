@@ -69,9 +69,6 @@ input, select{
   border: 1px solid rgb(185, 20, 80);
   border-radius: 5px;
 }
-input.value{
-  text-align: center;
-}
 
 .col{
   display: flex;
@@ -132,7 +129,7 @@ button:hover{
   border: 1px solid grey;
   border-right: 1px solid white;
 }
-@media screen and (max-width: 1326px){
+@media screen and (max-width: 1240px){
   .bc_grey{
     flex-basis: 100%;
   }
