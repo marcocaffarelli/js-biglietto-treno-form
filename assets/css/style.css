@@ -9,6 +9,9 @@
 .d-flex {
   display: flex;
 }
+.flex_wrap {
+  flex-wrap: wrap;
+}
 .mx_5{
   margin: 0 5px;
 }
@@ -110,8 +113,31 @@ button:hover{
   padding-top: 0!important;
 }
 
-
 .dettaglio_passeggeri{
   border: 1px solid grey;
   border-right: 1px solid white;
+}
+@media screen and (max-width: 1326px){
+  .bc_grey{
+    flex-basis: 100%;
+  }
+}
+@media screen and (max-width: 818px){
+  #biglietto .row .col {
+    flex-basis: 100%;
+  }
+}
+
+@media screen and (max-width: 380px){
+  .container{
+    width: 80%;
+  }
+  input{
+    width: 80%;
+    margin: auto;
+  }
+  select{
+    width: 90%;
+    margin: auto;
+  }
 }
