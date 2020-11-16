@@ -98,11 +98,18 @@ button:hover{
   padding: 10px 0;
 }
 
-.grey{
+.bc_grey{
   background-color: grey;
   margin-left: 0;
   padding-left: 10px!important;
 }
+.bc_grey .strong{
+  padding-bottom: 0!important;
+}
+#nome_passeggero{
+  padding-top: 0!important;
+}
+
 
 .dettaglio_passeggeri{
   border: 1px solid grey;
