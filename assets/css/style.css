@@ -24,6 +24,7 @@
 .li_h_30{
   line-height: 30px;
 }
+
 /***************Utility classes***************/
 
 
@@ -39,7 +40,7 @@ body{
   background-color: rgb(185, 20, 80);
   margin: auto;
 }
-.top{
+.sp_ar{
   justify-content: space-around;
 }
 #form_biglietto, h3{
@@ -108,9 +109,6 @@ button:hover{
 #biglietto .row div{
   padding: 10px 0;
 }
-#biglietto .col{
-  padding-left: 20px;
-}
 
 .bc_grey{
   background-color: grey;
@@ -125,6 +123,9 @@ button:hover{
   padding-top: 0!important;
 }
 
+.sp_bet{
+  justify-content: space-between;
+}
 .dettaglio_passeggeri{
   border: 1px solid grey;
   border-right: 1px solid white;
@@ -134,13 +135,13 @@ button:hover{
     flex-basis: 100%;
   }
 }
-@media screen and (max-width: 818px){
+@media screen and (max-width: 920px){
   #biglietto .row .col {
     flex-basis: 100%;
   }
 }
 
-@media screen and (max-width: 380px){
+@media screen and (max-width: 410px){
   .container{
     width: 80%;
   }
