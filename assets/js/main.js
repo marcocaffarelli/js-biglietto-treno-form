@@ -20,7 +20,13 @@ btnGenera.addEventListener('click', function() {
    var costoAlKm = 0.21;
    var costoBiglietto = costoAlKm * km;
 
-  
+   if (fasciaEta == "minorenne") {
+     // console.log("applica il 20% di sconto");
+   }else if (fasciaEta == "maggiorenne") {
+   }else (fasciaEta == "over65") {
+     // console.log("applica il 40% di sconto");
+
+
 });
 
 btnAnnulla.addEventListener('click', function() {
