@@ -5,6 +5,7 @@ var btnAnnulla = document.getElementById("btn_annulla");
 
 btnGenera.addEventListener('click', function() {
    // console.log("genera");
+   document.getElementById("biglietto").style.opacity="1";
 
    // var degli id dei tag input
    var nomeUtente = document.getElementById("nome_cognome")
@@ -59,4 +60,5 @@ btnGenera.addEventListener('click', function() {
 
 btnAnnulla.addEventListener('click', function() {
   // console.log("annulla");
+  document.getElementById("biglietto").style.opacity="0";
 });
