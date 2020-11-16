@@ -15,8 +15,8 @@
 .strong{
   font-weight: bolder;
 }
-.pb_40{
-  padding-bottom: 40px;
+.mb_20{
+  margin-bottom: 20px;
 }
 
 body{
@@ -65,15 +65,15 @@ h3{
 
 button, label{
   color: rgb(185, 20, 80);
-  margin: 10px 0;
 }
 label{
   font-size: 12px;
+  margin: 10px 0;
 }
-.grey{
-  background-color: grey;
-  margin-left: 0;
-  padding-left: 10px;
+button{
+  margin: 0 3px;
+  margin-top: 20px;
+  font-weight: 500;
 }
 
 #biglietto{
@@ -82,6 +82,15 @@ label{
 }
 #biglietto .sfondo_bianco{
   margin-bottom: 30px;
+}
+#biglietto .row div{
+  padding: 10px 0;
+}
+
+.grey{
+  background-color: grey;
+  margin-left: 0;
+  padding-left: 10px!important;
 }
 
 .dettaglio_passeggeri{
