@@ -10,6 +10,37 @@
     <!-- form biglietto -->
     <section id="form_biglietto">
       <h2>CALCOLA IL PREZZO DEL TUO BIGLIETTO</h2>
+      <!-- sfondo bianco -->
+      <div class="bianco">
+        <!-- riga superiore -->
+        <div class="row">
+          <div class="col">
+            <label for="nome">Nome Cognome</label>
+            <input type="text" name="nome">
+          </div>
+          <div class="col">
+            <label for="km">Km da percorrere</label>
+            <input type="number" name="km">
+          </div>
+          <div class="col">
+            <label for="età">Fascia d'età</label>
+            <select id="fascia_età" name="fascia_età">
+              <option value="minorenne">Minorenne</option>
+              <option value="maggiorenne">Maggiorenne</option>
+              <option value="over65">Over65</option>
+            </select>
+          </div>
+        </div>
+        <!-- /riga superiore -->
+
+        <!-- riga inferiore -->
+        <div class="row">
+          <button id="btn_genera">Genera</button>
+          <button id="btn_annulla">Annulla</button>
+        </div>
+        <!-- riga inferiore -->
+      </div>
+      <!-- /sfondo bianco -->
     </section>
     <!-- /form biglietto -->
 
