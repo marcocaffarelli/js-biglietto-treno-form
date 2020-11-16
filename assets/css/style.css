@@ -9,7 +9,37 @@
   display: flex;
 }
 
+body{
+  background-color: black;
+  height: 100vh;
+  display: flex;
+}
+
+.container{
+  flex-direction: column;
+  width: 50%;
+  background-color: rgb(185, 20, 80);
+  margin: auto;
+  text-align: center;
+
+}
+
+h2{
+  color: white;
+}
+
+.bianco{
+  background-color: white;
+  width: 80%;
+  margin: auto;
+}
+
 .col{
   display: flex;
   flex-direction: column;
+}
+
+
+#biglietto{
+  opacity: 0;
 }
