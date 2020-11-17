@@ -61,4 +61,7 @@ btnGenera.addEventListener('click', function() {
 btnAnnulla.addEventListener('click', function() {
   // console.log("annulla");
   document.getElementById("biglietto").style.opacity="0";
+  document.getElementById("nome_cognome").value ="";
+  document.getElementById("km").value ="";
+  document.getElementById("fascia_età").value ="";
 });
